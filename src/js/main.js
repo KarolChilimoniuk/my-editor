@@ -5,6 +5,7 @@ const ageInput = document.getElementById('age');
 const txtArea = document.getElementById('secret');
 const saveButton = document.querySelector('.form__input--Js2');
 const loadButton = document.querySelector('.form__input--Js1');
+const removeButton = document.querySelector('.form__input--Js3');
 
 
 saveButton.addEventListener('click', function () {
@@ -25,4 +26,10 @@ loadButton.addEventListener('click', function () {
     nameInput.value = localStorage.getItem('name');
     ageInput.value = localStorage.getItem('age');
     txtArea.value = localStorage.getItem('secret');
+});
+
+removeButton.addEventListener('click', function () {
+    localStorage.removeItem('name');
+    localStorage.removeItem('age');
+    localStorage.removeItem('secret');
 });
