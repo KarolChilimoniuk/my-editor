@@ -1,6 +1,6 @@
 
 .main-element {
-    align-items: flex-start;
+    align-content: flex-start;
     background-color: #75CABB;
     display: flex;
     flex-flow: row wrap;
@@ -18,5 +18,12 @@
         margin: 0;
         padding: 30px;
         text-align: center;
+    }
+
+    .form {
+        align-self: flex-start;
+        display: flex;
+        flex-flow: column wrap;
+        padding: 20px;
     }
 }
