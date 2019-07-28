@@ -1,6 +1,8 @@
 
 .main-element {
     background-color: #75CABB;
+    display: flex;
+    flex-flow: row wrap;
     height: 80%;
     left: 50%;
     position: absolute;
