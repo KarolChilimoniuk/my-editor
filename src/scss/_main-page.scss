@@ -69,12 +69,13 @@
             border: 1px solid #fff;
             border-radius: 5px;
             color: #fff;
+            flex-grow: 1;
             padding: 5px;
             width: 30%;
         }
 
-        &__input--style:nth-child(4) {
-                margin-right: 30px;
+        &__input--style:nth-child(4), &__input--style:nth-child(5) {
+                margin-right: 20px;
         }
 
         &__textarea {
