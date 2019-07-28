@@ -6,18 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <section class="main-element">
     <h2 class="main-element__title">Hello! This is your secrets' text editor</h2>
-    <form action="#" class="form" method="post" enctype="application/x-www-form-urlencoded">
+    <form action="#" class="form">
       <div class="form__elements">
          <label for="name" class="form__label">Name</label>
          <input type="text" class="form__input form__input--nameJs" id="name" placeholder="name">
       </div>
       <div class="form__elements">
         <label for="age" class="form__label form__input--ageJs">Age</label>
-        <input type="text" class="form__input" id="action" placeholder="age">
+        <input type="text" class="form__input" id="age" placeholder="age">
       </div>
       <div class="form__elements">
         <label for="secret" class="form__label">Your Secret</label>
@@ -25,6 +26,7 @@
       </div>
       <input type="submit" class="form__input form__input--style form__input--Js1" value="Load">
       <input type="submit" class="form__input form__input--style form__input--Js2" value="Save">
+      <input type="submit" class="form__input form__input--style form__input--Js3" value="Remove">
     </form>
   </section>
 </body>

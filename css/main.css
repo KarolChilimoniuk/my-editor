@@ -311,8 +311,10 @@ template {
 .main-element {
   -ms-flex-line-pack: start;
       align-content: flex-start;
-  background-color: #75CABB;
+  background-color: #659933;
   border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px 5px green;
+          box-shadow: 0 0 5px 5px green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,9 +332,9 @@ template {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 70%; }
+  width: 80%; }
   .main-element__title {
-    color: #5D73BF;
+    color: #2B4970;
     font-size: 1.5rem;
     margin: 0;
     padding: 30px 30px 10px 30px;
@@ -340,7 +342,7 @@ template {
   .main-element .form {
     -ms-flex-item-align: start;
         align-self: flex-start;
-    color: #5D73BF;
+    color: #2B4970;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -373,6 +375,8 @@ template {
     .main-element .form__label {
       margin-bottom: 5px; }
     .main-element .form__input {
+      background-color: #277553;
+      border: none;
       margin-bottom: 5px;
       width: 100%; }
     .main-element .form__input--style {
@@ -380,12 +384,17 @@ template {
       border: 1px solid #fff;
       border-radius: 5px;
       color: #fff;
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
       padding: 5px;
       width: 30%; }
-    .main-element .form__input--style:nth-child(4) {
-      margin-right: 30px; }
+    .main-element .form__input--style:nth-child(4), .main-element .form__input--style:nth-child(5) {
+      margin-right: 10px; }
     .main-element .form__textarea {
-      height: 100px;
+      background-color: #277553;
+      border: none;
+      height: 150px;
       margin-bottom: 10px; }
       @media screen and (min-width: 736px) {
         .main-element .form__textarea {
