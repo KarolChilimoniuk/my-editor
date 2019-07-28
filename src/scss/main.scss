@@ -15,6 +15,10 @@ html {
 }
 
 body {
+  background-image: url(../assets/img/forest.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: $yellow;
-  background: $blue;
+  min-height: 100vh;
 }
