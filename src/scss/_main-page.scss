@@ -25,5 +25,11 @@
         display: flex;
         flex-flow: column wrap;
         padding: 20px;
+        width: 100%;
+
+        &__elements {
+            display: flex;
+            flex-flow: column wrap;
+        }
     }
 }
