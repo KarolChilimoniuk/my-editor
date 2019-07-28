@@ -41,6 +41,14 @@
             margin-bottom: 5px;
         }
 
+        &__input--style {
+            background-color: transparent;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            color: #fff;
+            padding: 5px;
+        }
+
         &__textarea {
             margin-bottom: 10px;
         }
