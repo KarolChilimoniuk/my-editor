@@ -32,4 +32,7 @@ removeButton.addEventListener('click', function () {
     localStorage.removeItem('name');
     localStorage.removeItem('age');
     localStorage.removeItem('secret');
+    nameInput.value = null;
+    ageInput.value = null;
+    txtArea.value = null;
 });

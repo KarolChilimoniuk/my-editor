@@ -12,7 +12,7 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 80%;
 
     &__title {
         color: #2B4970;
@@ -78,13 +78,13 @@
         }
 
         &__input--style:nth-child(4), &__input--style:nth-child(5) {
-                margin-right: 20px;
+                margin-right: 10px;
         }
 
         &__textarea {
             background-color: #277553;
             border:none;
-            height: 100px;
+            height: 150px;
             margin-bottom: 10px;
             @media screen and (min-width: 736px) {
                 height: 200px;
