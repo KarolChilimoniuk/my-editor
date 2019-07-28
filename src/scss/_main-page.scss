@@ -33,12 +33,33 @@
             flex-flow: column wrap;
         }
 
+        &__elements:nth-child(1) {
+            @media screen and (min-width: 640px) {
+                margin-right: 20px;
+             }
+        }
+
+        &__elements:nth-child(1), &__elements:nth-child(2) {
+
+          @media screen and (min-width: 640px) {
+              flex-shrink: 1;
+              width: 30%;
+           }
+        }
+
+        &__elements:nth-child(3) {
+            @media screen and (min-width: 640px) {
+                width: 100%;
+            }
+        }
+
         &__label {
          margin-bottom: 5px;
         }
 
         &__input {
             margin-bottom: 5px;
+            width: 100%;
         }
 
         &__input--style {
@@ -47,10 +68,34 @@
             border-radius: 5px;
             color: #fff;
             padding: 5px;
+
+            @media screen and (min-width: 640px) {
+                width: 30%;
+            }
+        }
+
+        &__input--style:nth-child(4) {
+            @media screen and (min-width: 640px) {
+                margin-right: 30px;
+            }
         }
 
         &__textarea {
+            height: 100px;
             margin-bottom: 10px;
+            @media screen and (min-width: 736px) {
+                height: 200px;
+            }
+
         }
+
+        @media screen and (min-width: 640px) {
+            flex-flow: row wrap;
+            justify-content: flex-start;
+        }
+    }
+
+    @media screen and (min-width: 1240px) {
+        width: 30%;
     }
 }
