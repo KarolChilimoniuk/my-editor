@@ -1,7 +1,7 @@
-# Secret Editor
+# Forest of Secrets Editor
 ***
 ### Introduction ⏩
-Secret editor is simple project which I prepared during my learning about localStorage. The main goal was learning how to save data from a form in localStorage, how to load data from localStorage and how to remove data. If you want, tell your secrets to localStorage. [Online version is HERE](https://karolchilimoniuk.github.io/my-editor/?#) 🎭
+Forest of Secrets Editor is simple project which I prepared during my learning about localStorage. The main goal was learning how to save data from a form in localStorage, how to load data from localStorage and how to remove data. If you want, put your secrets in the forest (localStorage of course). [Online version is HERE](https://karolchilimoniuk.github.io/my-editor/?#) 🎭
 ***
 ### Technologies and Tools 🏗
 * HTML5  (semantic code and BEM)
@@ -46,7 +46,7 @@ in your terminal.
 If you want to close live preview - use ***ctrl + c***.
 ***
 ###How does it works? ☢
-a) If you want to save your secret for late - click 'save'
+a) If you want to put your secret in the forest - click 'save'
 b) If you want to show someone your secret - it is sufficient if you click 'load'
-c) If you want to hide your written secret - click 'remove'
+c) If you want to hide your secret - click 'remove' to throw it out from the forest
 Enjoy! 😎
