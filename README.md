@@ -1,9 +1,9 @@
-#Secret Editor
+# Secret Editor
 ***
-###Introduction ⏩
+### Introduction ⏩
 Secret editor is simple project which I prepared during my learning about localStorage. The main goal was learning how to save data from a form in localStorage, how to load data from localStorage and how to remove data. If you want, tell your secrets to localStorage. [Online version is HERE](https://karolchilimoniuk.github.io/my-editor/?#) 🎭
 ***
-###Technologies and Tools 🏗
+### Technologies and Tools 🏗
 * HTML5  (semantic code and BEM)
 * CSS3 (flex + SASS)
 * JavaScript ES6
