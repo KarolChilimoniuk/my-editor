@@ -8,7 +8,8 @@ const loadButton = document.querySelector('.form__input--Js1');
 const removeButton = document.querySelector('.form__input--Js3');
 
 
-saveButton.addEventListener('click', function () {
+saveButton.addEventListener('click', (x) => {
+     x.preventDefault();
      localStorage.setItem('name', nameInput.value);
      localStorage.setItem('age', ageInput.value);
      localStorage.setItem('secret', txtArea.value);
@@ -22,13 +23,15 @@ saveButton.addEventListener('click', function () {
 }) */
 
 
-loadButton.addEventListener('click', function () {
+loadButton.addEventListener('click', (x) => {
+    x.preventDefault();
     nameInput.value = localStorage.getItem('name');
     ageInput.value = localStorage.getItem('age');
     txtArea.value = localStorage.getItem('secret');
 });
 
-removeButton.addEventListener('click', function () {
+removeButton.addEventListener('click', (x) => {
+    x.preventDefault();
     localStorage.removeItem('name');
     localStorage.removeItem('age');
     localStorage.removeItem('secret');
