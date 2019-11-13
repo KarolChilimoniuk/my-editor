@@ -45,7 +45,7 @@ gulp
 in your terminal. 
 If you want to close live preview - use ***ctrl + c***.
 ***
-###How does it works? ☢
+### How does it works? ☢
 a) If you want to put your secret in the forest - click 'save'
 b) If you want to show someone your secret - it is sufficient if you click 'load'
 c) If you want to hide your secret - click 'remove' to throw it out from the forest
